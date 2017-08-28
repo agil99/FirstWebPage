@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head><title>Puppy Page</title></head>
+  <head>
+	<title>Puppy Page</title>
+	<link rel = "stylesheet" type = "text/css" href = "FWPstyle.css">
+  </head>
   <body>
-	<center>
-    <font face = "Comic Sans MS" color = "blue">
+	
 		<h1>Would Pup?</h1>      
-			<!--<p>
+			<p>
 			This is my web page. There are many like it, but this one is mine.
 			</p>
-			-->
-			<img src = "wolf.jfif" id = "img" alt = "Wolf">
+			<img src = "wolf.jfif"  alt = "Wolf">
 			<img src = "Husky_og.jfif" alt = "Husky">
 			<img src = "HuskyPuppies.jfif" alt = "Puppies">	
 		<h2> YES!</h2>
-		<button type = "button" onClick = "hideAndShow">Click Me!</button>    
-    </font>    
-	</center>
+		<button type = "button" onClick = "hideAndShow()">Click Me!</button>  
+		<img src = "milo.jpg" id = "img" alt = "milo" align = 'center'>
+	
 	<script>
 		function hideAndShow(){
 			var x = document.getElementById('img');
