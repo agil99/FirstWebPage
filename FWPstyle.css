@@ -1,5 +1,6 @@
 body{
 	text-align: center;
+	background-color: lightblue;
 }
 p{
 	color: blue;
@@ -9,9 +10,11 @@ h2{
 }
 #img{
 	border: 15px solid lightblue;
+	
 }
 img{
-	border: 10px solid rgba(100,0,100,.3);
+	border: 10px solid rgba(100,0,100,.5);
+	align: center;
 }
 #button{
 	margin: 25px;
